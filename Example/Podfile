@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RxReduxy_Example' do
+  pod 'RxReduxy', :path => '../'
+
+  target 'RxReduxy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
