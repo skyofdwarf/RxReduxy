@@ -1,0 +1,22 @@
+PODS:
+  - ReactiveObjC (3.1.0)
+  - Reduxy (0.4.2)
+  - RxReduxy (0.1.0):
+    - ReactiveObjC
+    - Reduxy (~> 0.4)
+
+DEPENDENCIES:
+  - RxReduxy (from `../`)
+
+EXTERNAL SOURCES:
+  RxReduxy:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  Reduxy: 0f0502a6d37067a748913a08b99670723df8c266
+  RxReduxy: 9029ed7634361784e55c0e25ef70a510aa26da00
+
+PODFILE CHECKSUM: 6a147e695b9788b1592ca0a41691e315a3ed4a41
+
+COCOAPODS: 1.4.0
